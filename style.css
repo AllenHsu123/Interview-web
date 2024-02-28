@@ -308,3 +308,8 @@ footer nav{
             transform: rotate(-45deg) translateY(-2px);
         }
     }
+    @media screen and (max-width: 767px) {
+        .header-content {
+          transition: background-color 0.2s;
+        }
+      }
